@@ -26,6 +26,9 @@ namespace AnimalClasses
             fido.Sing();
             fido.Fetch("stick");
 
+            fido.TouchMe();
+            fido.FeedMe();
+
             Console.WriteLine(fido.ToString());
 
             Console.ReadLine();
