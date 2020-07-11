@@ -39,7 +39,7 @@ namespace AnimalClasses
             Console.WriteLine("Animal is singing");
         }
 
-        override public string ToString()
+        public string ToString()
         {
             return "Status: " + isAlive + " Weight: " + weight;
         }
