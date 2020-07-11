@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AnimalClasses
 {
-    class Animal
+    abstract class Animal
     {
 
         Boolean isAlive { get; set; }
